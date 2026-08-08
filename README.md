@@ -20,14 +20,14 @@
 </p>
 
 <p align="center">
-  <a href="#-workflow">Workflow</a> • <a href="#-quick-start">Quick Start</a> • <a href="#-code--output--observation">Code + Output</a> • <a href="#-results">Results</a> • <a href="#how-to-run">Run</a>
+  <a href="#-workflow">Workflow</a> • <a href="#-quick-start">Quick Start</a> • <a href="#-code--output--observation">Code + Output</a> • <a href="#-results">Results</a> • <a href="#how-to-run[...]
 </p>
 
 ---
 
 ### ✨ What this repo does?
 
-We take **3 different file types** and build a **pipeline** that cleans, fixes outliers, transforms, scales and engineers *behaviour* features — so the data is ready for Churn / LTV / Recommendation models.
+We take **3 different file types** and build a **pipeline** that cleans, fixes outliers, transforms, scales and engineers *behaviour* features — so the data is ready for Churn / LTV / Recommenda[...]
 
 <table>
 <tr>
@@ -86,7 +86,6 @@ flowchart TD
 ```
 
 
-
 ---
 
 ## 📂 Repository Structure
@@ -124,7 +123,7 @@ jupyter notebook Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb
 
 ## 📎 Quick Links
 
-<p align="center"> <a href="https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0" target="_blank"> <img src="https://img.shields.io/badge/Question%20Docs-Google%20Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white" alt="Question Docs" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb" target="_blank"> <img src="https://img.shields.io/badge/Code%20Notebook-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Code Notebook" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY.pdf" target="_blank"> <img src="https://img.shields.io/badge/Theory%20PDF-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Theory PDF" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY_GoogleDocs.docx" target="_blank"> <img src="https://img.shields.io/badge/Theory%20Docs-Google%20Docs-34A853?style=for-the-badge&logo=googledocs&logoColor=white" alt="Theory Docs" /> </a> <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Explanation Video" /> </a> </p>
+<p align="center"> <a href="https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0" target="_blank"> <img src="https://img.shields.io/badge/Question%20Docs-Google%20Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white" alt="Question Docs" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb" target="_blank"> <img src="https://img.shields.io/badge/Code%20Notebook-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Code Notebook" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY.pdf" target="_blank"> <img src="https://img.shields.io/badge/Theory%20PDF-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Theory PDF" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY_GoogleDocs.docx" target="_blank"> <img src="https://img.shields.io/badge/Theory%20Docs-Google%20Docs-34A853?style=for-the-badge&logo=googledocs&logoColor=white" alt="Theory Docs" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY_GoogleDocs.docx" target="_blank"> <img src="https://img.shields.io/badge/Theory%20Docs-Docx-34A853?style=for-the-badge&logo=google-docs&logoColor=white" alt="Theory Docs Docx" /> </a> <a href="https://drive.google.com/file/d/1MVdxpumdDZOU22rUMUZIKZtV8CZGmlEP/view?usp=sharing" target="_blank"> <img src="https://img.shields.io/badge/Dataset-Google%20Drive-brightgreen?style=for-the-badge&logo=google-drive&logoColor=white" alt="Dataset" /> </a> <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Explanation Video" /> </a> </p>
 
 ---
 
@@ -176,7 +175,7 @@ After SimpleImputer missing: 0
 KNN done on age
 ```
 
-**Observation:** *Mean for `age` (numeric, normal), most_frequent for `gender/city` (categorical), KNN as multivariate demo — pipeline is now production-ready even though this snapshot had 0 missing.*
+**Observation:** *Mean for `age` (numeric, normal), most_frequent for `gender/city` (categorical), KNN as multivariate demo — pipeline is now production-ready even though this snapshot had 0 missing[...]
 
 ---
 
@@ -208,7 +207,7 @@ Skew before: 1.35 → after winsor: 0.45 → after log: 0.14
 <img width="1003" height="755" alt="image" src="https://github.com/user-attachments/assets/5baece30-5d44-4017-a639-7242c14aae97" />
 
 
-**Observation:** *IQR found 4× more than Z — because sales are right-skewed, Z (which assumes normal) misses them. **Decision:** Winsorize at 5th/95th — we keep all 1000 rows, just cap extremes. No data loss, skew fixed.*
+**Observation:** *IQR found 4× more than Z — because sales are right-skewed, Z (which assumes normal) misses them. **Decision:** Winsorize at 5th/95th — we keep all 1000 rows, just cap extre[...]
 
 
 ---
@@ -325,7 +324,7 @@ ProfileReport(final_df, minimal=True).to_file("eda_report.html")
 | **Outliers** | Z 11, IQR 44 | **Capped 100, remaining 0** | Skew 1.35 → 0.14 |
 | **Inventory risk** | — | **6 SKUs <50** (P005 18, P011/P030 28) | Reorder now |
 
-**New columns (sample):** `purchase_frequency`, `avg_monthly_spend`, `days_since_last`, `spend_Home` … `spend_Toys` (×8), `tenure_days`, `avg_ticket`, `weekend_purchase_ratio`, `spending_tier`, `city_tier_encoded`, `age_std/mm`, `amount_log_std`.
+**New columns (sample):** `purchase_frequency`, `avg_monthly_spend`, `days_since_last`, `spend_Home` … `spend_Toys` (×8), `tenure_days`, `avg_ticket`, `weekend_purchase_ratio`, `spending_tier`[...]
 
 ---
 
@@ -348,9 +347,9 @@ python -c "import pandas as pd; print(pd.read_csv('final_cleaned_dataset.csv').s
 
 ## 📝 One-Page Summary
 
-**Theory:** Preprocessing converts multi-format raw data into reliable features — imputation avoids bias, Winsorization tames skew without loss, transformations unlock seasonality/categorical signal, scaling lets distance models converge, and behaviour engineering (frequency, recency, monetary, category) turns events into intent.
+**Theory:** Preprocessing converts multi-format raw data into reliable features — imputation avoids bias, Winsorization tames skew without loss, transformations unlock seasonality/categorical s[...]
 
-**Findings:** Clean data but skewed; IQR 4× more sensitive than Z → Winsor chosen; log best for skew; Home+Books 38% revenue; Kolkata 3× Ahmedabad; Net Banking high ticket vs Wallet frequent; ~30% customers inactive >90 days (churn).
+**Findings:** Clean data but skewed; IQR 4× more sensitive than Z → Winsor chosen; log best for skew; Home+Books 38% revenue; Kolkata 3× Ahmedabad; Net Banking high ticket vs Wallet frequent;[...]
 
 **Next:** Train churn/LTV on `final_cleaned_dataset.csv` (200×40) + forecast on `final_transaction_level.csv` (1000×35).
 
@@ -367,5 +366,3 @@ python -c "import pandas as pd; print(pd.read_csv('final_cleaned_dataset.csv').s
 - Email: devanshibachhote2007@example.com
 
 <p align="center"><b>Built with ❤️ — Quality is our Motto.</b><br/>08 Aug 2026 • Ahmedabad </p>
-
-
