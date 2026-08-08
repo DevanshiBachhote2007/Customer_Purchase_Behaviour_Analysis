@@ -124,10 +124,7 @@ jupyter notebook Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb
 
 ## 📎 Quick Links
 
-[![Question Docs](https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0)](QUESTION_DOCS_LINK)
-[![Code Notebook](https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer.ipynb)](CODE_NOTEBOOK_LINK)
-[![Theory PDF](https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Theory.pdf)](THEORY_PDF_LINK)
-[![Explanation Video](https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge)](EXPLANATION_VIDEO_LINK)
+<p align="center"> <a href="https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0" target="_blank"> <img src="https://img.shields.io/badge/Question%20Docs-Google%20Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white" alt="Question Docs" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb" target="_blank"> <img src="https://img.shields.io/badge/Code%20Notebook-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Code Notebook" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY.pdf" target="_blank"> <img src="https://img.shields.io/badge/Theory%20PDF-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Theory PDF" /> </a> <a href="https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/COMPLETE_THEORY_GoogleDocs.docx" target="_blank"> <img src="https://img.shields.io/badge/Theory%20Docs-Google%20Docs-34A853?style=for-the-badge&logo=googledocs&logoColor=white" alt="Theory Docs" /> </a> <a href="#" target="_blank"> <img src="https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Explanation Video" /> </a> </p>
 
 ---
 
