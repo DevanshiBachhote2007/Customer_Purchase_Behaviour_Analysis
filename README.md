@@ -126,7 +126,7 @@ jupyter notebook Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb
 
 [![Question Docs](https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0)](QUESTION_DOCS_LINK)
 [![Code Notebook](https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer.ipynb)](CODE_NOTEBOOK_LINK)
-[![Theory PDF](https://img.shields.io/badge/Theory%20PDF-PDF-orange?style=for-the-badge)](THEORY_PDF_LINK)
+[![Theory PDF](https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Theory.pdf)](THEORY_PDF_LINK)
 [![Explanation Video](https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge)](EXPLANATION_VIDEO_LINK)
 
 ---
@@ -207,6 +207,9 @@ IQR outliers: 44
 5th: 22.65  95th: 139.02
 Skew before: 1.35 → after winsor: 0.45 → after log: 0.14
 ```
+<img width="982" height="729" alt="image" src="https://github.com/user-attachments/assets/fbe712e7-e861-4923-bb66-21df3daea1c1" />
+<img width="1003" height="755" alt="image" src="https://github.com/user-attachments/assets/5baece30-5d44-4017-a639-7242c14aae97" />
+
 
 **Observation:** *IQR found 4× more than Z — because sales are right-skewed, Z (which assumes normal) misses them. **Decision:** Winsorize at 5th/95th — we keep all 1000 rows, just cap extremes. No data loss, skew fixed.*
 
@@ -232,6 +235,9 @@ Label classes: ['Female' 'Male' 'Other']
 pay_Cash, pay_Wallet, pay_UPI... → 6 one-hot cols
 Low: 320  Medium: 410  High: 270
 ```
+
+<img width="1000" height="784" alt="image" src="https://github.com/user-attachments/assets/c9a6f8a2-b967-47d4-b900-368f12c1ac6f" />
+
 
 **Observation:** *Dates → season signal, Label for gender, One-Hot for payment (no order), Ordinal for city_tier (Tier1> Tier2> Tier3), binning gives business segments, log beat sqrt for skew.*
 
