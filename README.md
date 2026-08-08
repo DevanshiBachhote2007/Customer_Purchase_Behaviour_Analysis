@@ -124,8 +124,8 @@ jupyter notebook Customer_Purchase_Behavior_Analyzer_SIMPLE.ipynb
 
 ## 📎 Quick Links
 
-[![Question Docs](https://img.shields.io/badge/Question%20Docs-PDF-blue?style=for-the-badge)](QUESTION_DOCS_LINK)
-[![Code Notebook](https://img.shields.io/badge/Code%20Notebook-IPYNB-green?style=for-the-badge)](CODE_NOTEBOOK_LINK)
+[![Question Docs](https://docs.google.com/document/d/1hVCZOxv0Y4VJOXK5TYApQ0-JAL2xwFdmULdmxzb8E6o/edit?tab=t.0)](QUESTION_DOCS_LINK)
+[![Code Notebook](https://github.com/DevanshiBachhote2007/Customer_Purchase_Behaviour_Analysis/blob/main/Customer_Purchase_Behavior_Analyzer.ipynb)](CODE_NOTEBOOK_LINK)
 [![Theory PDF](https://img.shields.io/badge/Theory%20PDF-PDF-orange?style=for-the-badge)](THEORY_PDF_LINK)
 [![Explanation Video](https://img.shields.io/badge/Explanation%20Video-MP4-red?style=for-the-badge)](EXPLANATION_VIDEO_LINK)
 
